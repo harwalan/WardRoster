@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="age_label">Age:</string>
+    <string name="app_name">Ward Roster</string>
+    <string name="baptized_label">Baptized:</string>
+    <string name="birth_label">Birthday:</string>
+    <string name="confirmed_label">Confirmed:</string>
+    <string name="endowed_label">Endowed:</string>
+    <string name="gender_label">Gender:</string>
+    <string name="help_text"><b>Importing a file</b>&lt;br&gt;&lt;br&gt;You can use either the Ward computer or the Ward website as a source for your data.  If using the Ward computer, place the Membership.csv file in WardRoster directory on your SD card.  If using the Ward website, download the CSV file from Membership Directory, name it Directory.csv, and place it in the WardRoster directory on your SD card.  Then, choose Import from CSV.&lt;br&gt;&lt;br&gt;<b>Setting a photo</b>&lt;br&gt;&lt;br&gt;To set a photo, you can long click the photo and choose to acquire it from either the camera or a location on your SD card.  If you have acquired photos using another source, you can place appropriately named photos in the proper location and the application will automatically pick them up.  For photos of families, name them using the following pattern: <i>lastname_husbandfirstname_wifefirstname.jpg</i>.  For example: <i>monsen_thomas_frances.jpg</i>  Place family photos in the WardRoster/family directory.  For photos of individuals, name them using the following pattern: <i>lastname_firstname_middlename.jpg</i>.  For example: <i>monsen_thomas_spencer.jpg</i>.  Place individual photos in the WardRoster/individual directory.</string>
+    <string name="membership_number_label">Membership #:</string>
+    <string name="menu_item_import">Import from CSV</string>
+    <string name="menu_item_help">Help</string>
+    <string name="mission_label">Mission:</string>
+    <string name="photo_option_1">Acquire from camera</string>
+    <string name="photo_option_2">Locate image</string>
+    <string name="priesthood_label">Priesthood:</string>
+<string name="copy">Copy</string>
+<string name="send">Send</string>
+
+<string name="sendall">Send All</string>
+<string name="email_label">Email:</string>
+<string name="recommend_expiration_label">Recommend Exp:</string>
+<string name="marriage_status_label">Marriage Status:</string>
+<string name="spouse_member_label">Spouse Member:</string>
+<string name="sealed_to_spouse_label">Sealed To Spouse:</string>
+<string name="menu_item_organization">Organizations</string>
+<string name="organization_list_title">Organizations</string>
+
+<color name="blue">#1E90FF</color>
+<string name="instant_dial_text">Instant Dial Enabled</string>
+<string name="menu_item_settings">Settings</string>
+<string name="family_photo_text">Show family photos</string>
+<string name="individual_photo_text">Show individual photo</string>
+<string name="phone_label">Phone:</string>
+<string name="callings_label">Callings:</string>
+<string name="menu_item_ward_list">Ward List</string>
+<string name="visiting_teacher_1_label">Visiting Teacher:</string>
+<string name="visiting_teacher_2_label">Visiting Teacher:</string>
+</resources>

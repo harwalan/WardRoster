@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="BlackTheme">        
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="WhiteTheme" parent="@android:style/Theme.Light">         
+		<item name="android:windowNoTitle">true</item>
+	</style>	    
+</resources>

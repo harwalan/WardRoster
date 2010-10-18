@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.blogspot.wardroster"
+      android:versionCode="10"
+      android:versionName="0.4.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+        <activity android:name=".WardList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FamilyDetails"
+                  android:label="@string/app_name"
+        >
+        </activity>
+        <activity android:name=".ImageViewer"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".PersonDetails"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".PositionList"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".OrganizationList"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Settings"
+                  android:label="@string/app_name">
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+</manifest> 
